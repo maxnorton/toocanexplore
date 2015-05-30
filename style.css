@@ -32,3 +32,7 @@ ul.nav-menu {
 ul.nav-menu > li {
 	display: table-cell;
 }
+
+.site-branding-container {
+	float: none !important;
+}
