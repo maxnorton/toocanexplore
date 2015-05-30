@@ -109,11 +109,12 @@ ul.nav-menu > li {
 	border-bottom: 3px solid #43a345 !important;	
 }
 
-.site-branding-container {
-	float: none !important;
+.site-content {
+	padding-top: 0 !important;
 }
 
 .rpwe-li {
+	border-bottom: none !important;
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
@@ -141,7 +142,35 @@ ul.nav-menu > li {
 	text-decoration: none;
 }
 
+.rpwe-thumb {
+	border: none !important;
+}
+
 .home .widget-title {
 	font-family: 'Cagliostro', sans-serif;
+	font-size: 3em;
 	text-align: center;
+}
+
+.home .panel-grid .widget-title {
+	padding-top: 30px !important;
+}
+
+.home .panel-grid:nth-of-type(odd) > div,
+.home .panel-grid:nth-of-type(odd) > div .widget-title {
+	color: white !important;
+}
+
+.home .panel-grid:first-of-type > div {
+	border-bottom: 30px solid #89b3c7;
+}
+
+.home .panel-grid:first-of-type:after {
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 40px solid #89b3c7;	margin: 0 auto;
+	content: " ";
+    display: block;
+    height: 0;
+    width: 0;
 }
