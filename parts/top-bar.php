@@ -5,7 +5,7 @@
 ?>
 
 <?php if( siteorigin_setting('header_top_bar') ) : ?>
-	<div id="top-bar">
+	<div class="top-bar" id="top-bar">
 		<div class="container">
 			<div class="top-bar-text">
 				<?php do_action('ultra_top_bar_text'); ?>

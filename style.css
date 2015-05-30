@@ -12,6 +12,16 @@
  Tags: blue, gray, white, light, one-column, two-columns, responsive-layout, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 */
 
+.top-bar {
+	background-color: transparent !important;
+	float: right;
+	width: auto !important;
+}
+
+.social-links-menu ul li a[href*="translate.google.com"]:before {
+  content: "\f1ab";
+}
+
 nav.main-navigation {
 	float: none;
 	max-width: none;
