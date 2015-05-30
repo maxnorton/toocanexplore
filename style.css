@@ -66,13 +66,15 @@
 
 nav.main-navigation {
 	float: none;
+	margin-top: 15px;
 	max-width: none;
 	width: 100%;
 }
 
 .nav-border {
-	width: 75%;
 	color: #ccc;
+	margin: 0 auto;
+	width: 75%;
 }
 
 .main-navigation > div {
@@ -87,11 +89,14 @@ ul.nav-menu,
 }
 
 ul.nav-menu > li {
-	margin-right: 3em !important;
+	margin-left: 1.5em !important;
+	margin-right: 1.5em !important;
 }
 
 .main-navigation ul li a {
 	color: #000 !important;
+	height: 80px !important;
+	line-height: 80px !important;
 }
 
 .main-navigation .current_page_item > a, 
