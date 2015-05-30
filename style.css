@@ -140,3 +140,8 @@ ul.nav-menu > li {
 	float: right;
 	text-decoration: none;
 }
+
+.home .widget-title {
+	font-family: 'Cagliostro', sans-serif;
+	text-align: center;
+}
