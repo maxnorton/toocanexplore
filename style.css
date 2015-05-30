@@ -11,3 +11,24 @@
  Text Domain: ultra
  Tags: blue, gray, white, light, one-column, two-columns, responsive-layout, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 */
+
+nav.main-navigation {
+	display: table;
+	float: none;
+	max-width: none;
+	width: 100%;
+}
+
+.main-navigation > div {
+	float: none;
+}
+
+ul.nav-menu {
+	display: table-row;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: 1.75em;
+}
+
+ul.nav-menu > li {
+	display: table-cell;
+}
