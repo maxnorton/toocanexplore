@@ -43,7 +43,7 @@
 
 .top-bar {
 	background-color: transparent !important;
-	border-left: 1px solid #fafafa;
+	border-left: 1px solid #ccc;
 	float: right;
 	width: auto !important;
 }
@@ -70,6 +70,11 @@ nav.main-navigation {
 	width: 100%;
 }
 
+.nav-border {
+	width: 75%;
+	color: #ccc;
+}
+
 .main-navigation > div {
 	clear: right;
 	float: none;
@@ -86,15 +91,15 @@ ul.nav-menu > li {
 }
 
 .main-navigation ul li a {
-	color: #ad9a44 !important;
+	color: #000 !important;
 }
 
 .main-navigation .current_page_item > a, 
 .main-navigation .current-menu-item > a, 
 .main-navigation .current_page_ancestor > a,
 .main-navigation ul li:hover > a {
-	color: #000 !important;
-	border-bottom: 3px solid #000 !important;	
+	color: #43a345 !important;
+	border-bottom: 3px solid #43a345 !important;	
 }
 
 .site-branding-container {

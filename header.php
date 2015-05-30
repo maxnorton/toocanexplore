@@ -39,8 +39,9 @@
 					<?php get_template_part( 'parts/top-bar' ); ?>
 				</div>
 			</div>
-			
+
 			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<hr class="nav-border" />
 				<?php do_action('ultra_before_nav') ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				<?php if( siteorigin_setting('navigation_menu_search') ) : ?>
