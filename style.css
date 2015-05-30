@@ -51,11 +51,17 @@ ul.nav-menu > li {
 .rpwe-li {
 	display: inline-block;
 	text-align: center;
+	vertical-align: top;
 	width: 30%;
 }
 
+.rpwe-title {
+	padding-top: 15px;
+}
+
 .rpwe-title a {
-	color: #000;
+	color: #000 !important;
+	border-color: #000 !important;
 }
 
 .rpwe-summary {
