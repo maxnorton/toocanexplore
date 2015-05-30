@@ -46,3 +46,21 @@ ul.nav-menu > li {
 .site-branding-container {
 	float: none !important;
 }
+
+.rpwe-li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+
+.rpwe-summary {
+	margin: 0 auto;
+	max-width: 175px;
+	text-align: left;
+}
+
+.rpwe-summary .more-link {
+	display: block !important;
+	float: right;
+	text-decoration: none;
+}
