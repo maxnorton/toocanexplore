@@ -12,6 +12,10 @@
  Tags: blue, gray, white, light, one-column, two-columns, responsive-layout, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 */
 
+.site-header {
+	padding-top: 25px;
+}
+
 .top-bar {
 	background-color: transparent !important;
 	border-left: 1px solid black;
@@ -28,7 +32,7 @@
 .top-bar .top-bar-text span a:hover,
 .social-links-menu ul li a:hover,
 .social-links-menu ul li a:hover:before {
-	color: #d66f2b;
+	color: #d66f2b !important;
 }
 
 .social-links-menu ul li a[href*="translate.google.com"]:before {

@@ -23,19 +23,23 @@
 	<header id="masthead" class="site-header<?php if( siteorigin_setting( 'header_scale' ) ) { echo ' scale'; } if( siteorigin_setting( 'navigation_responsive_menu' ) ) { echo ' responsive-menu'; } ?>" role="banner">
 		<div class="container">
 
-			<?php get_template_part( 'parts/top-bar' ); ?>
 
-			<div class="site-branding-container">
-				<div class="site-branding">
+			<div class="header-grid">
+				<div class="header-box">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 						<?php ultra_display_logo(); ?>
 					</a>
+				</div>
+				<div class="header-box">
 					<?php if( get_bloginfo('description') && siteorigin_setting('header_tagline') ) : ?>
 						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 					<?php endif; ?>
-				</div><!-- .site-branding -->
-			</div><!-- .site-branding-container -->
-
+				</div>
+				<div class="header-box">
+					<?php get_template_part( 'parts/top-bar' ); ?>
+				</div>
+			</div>
+			
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<?php do_action('ultra_before_nav') ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
