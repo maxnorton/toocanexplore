@@ -13,7 +13,6 @@
 */
 
 nav.main-navigation {
-	display: table;
 	float: none;
 	max-width: none;
 	width: 100%;
@@ -24,13 +23,12 @@ nav.main-navigation {
 }
 
 ul.nav-menu {
-	display: table-row;
 	font-family: 'Cagliostro', sans-serif;
 	font-size: 1.75em;
 }
 
 ul.nav-menu > li {
-	display: table-cell;
+	margin-right: 3em !important;
 }
 
 .site-branding-container {
