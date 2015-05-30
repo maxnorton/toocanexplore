@@ -43,7 +43,7 @@
 
 .top-bar {
 	background-color: transparent !important;
-	border-left: 1px solid black;
+	border-left: 1px solid #fafafa;
 	float: right;
 	width: auto !important;
 }
@@ -93,8 +93,8 @@ ul.nav-menu > li {
 .main-navigation .current-menu-item > a, 
 .main-navigation .current_page_ancestor > a,
 .main-navigation ul li:hover > a {
-	color: #d66f2b !important;
-	border-bottom: 3px solid #d66f2b !important;	
+	color: #000 !important;
+	border-bottom: 3px solid #000 !important;	
 }
 
 .site-branding-container {
