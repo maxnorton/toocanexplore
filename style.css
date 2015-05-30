@@ -45,6 +45,8 @@
 	background-color: transparent !important;
 	border-left: 1px solid #eaeaeb;
 	float: right;
+	padding-bottom: 15px;
+	padding-top: 15px;
 	width: auto !important;
 }
 
@@ -73,7 +75,7 @@ nav.main-navigation {
 
 .nav-border {
 	margin: 0 auto;
-	width: 75%;
+	width: 70%;
 }
 
 .main-navigation > div {
@@ -85,6 +87,7 @@ ul.nav-menu,
 .rpwe-title a {
 	font-family: 'Cagliostro', sans-serif;
 	font-size: 1.75em;
+	text-align: center;
 }
 
 ul.nav-menu > li {
