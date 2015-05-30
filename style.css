@@ -14,8 +14,21 @@
 
 .top-bar {
 	background-color: transparent !important;
+	border-left: 1px solid black;
 	float: right;
 	width: auto !important;
+}
+
+.top-bar .top-bar-text span a,
+.social-links-menu ul li a,
+.social-links-menu ul li a:before {
+	color: black !important;
+}
+
+.top-bar .top-bar-text span a:hover,
+.social-links-menu ul li a:hover,
+.social-links-menu ul li a:hover:before {
+	color: #d66f2b;
 }
 
 .social-links-menu ul li a[href*="translate.google.com"]:before {
@@ -29,6 +42,7 @@ nav.main-navigation {
 }
 
 .main-navigation > div {
+	clear: right;
 	float: none;
 }
 
