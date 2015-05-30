@@ -31,6 +31,18 @@ ul.nav-menu > li {
 	margin-right: 3em !important;
 }
 
+.main-navigation ul li a {
+	color: #ad9a44 !important;
+}
+
+.main-navigation .current_page_item > a, 
+.main-navigation .current-menu-item > a, 
+.main-navigation .current_page_ancestor > a,
+.main-navigation ul li:hover > a {
+	color: #d66f2b !important;
+	border-bottom: 3px solid #d66f2b !important;	
+}
+
 .site-branding-container {
 	float: none !important;
 }
