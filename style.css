@@ -22,7 +22,8 @@ nav.main-navigation {
 	float: none;
 }
 
-ul.nav-menu {
+ul.nav-menu,
+.rpwe-title a {
 	font-family: 'Cagliostro', sans-serif;
 	font-size: 1.75em;
 }
@@ -51,6 +52,10 @@ ul.nav-menu > li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
+}
+
+.rpwe-title a {
+	color: #000;
 }
 
 .rpwe-summary {
