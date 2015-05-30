@@ -43,7 +43,7 @@
 
 .top-bar {
 	background-color: transparent !important;
-	border-left: 1px solid #ccc;
+	border-left: 1px solid #eaeaeb;
 	float: right;
 	width: auto !important;
 }
@@ -72,7 +72,6 @@ nav.main-navigation {
 }
 
 .nav-border {
-	color: #ccc;
 	margin: 0 auto;
 	width: 75%;
 }
