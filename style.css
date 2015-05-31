@@ -191,3 +191,14 @@ ul.nav-menu > li {
 	background: white !important;
 	color: black !important;
 }
+
+/* dropdown menus */
+.main-navigation ul ul {
+	border-color: #43a345;
+	top: 77px;
+}
+
+.main-navigation ul ul li:hover a{
+	background-color: #43a345;
+	color: #fff !important;
+}
