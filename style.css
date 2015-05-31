@@ -203,6 +203,21 @@ ul.nav-menu > li {
 	color: #fff !important;
 }
 
+.responsive-menu .main-navigation.toggled ul li a:hover,
+.responsive-menu .main-navigation.toggled ul ul li a:hover {
+	background-color: #43a345;
+	color: #fff !important;
+}
+
+.responsive-menu .main-navigation.toggled ul li a {
+	border-bottom: 3px solid #eaeaea;
+}
+
+.responsive-menu .main-navigation.toggled ul ul li a,
+.responsive-menu .main-navigation.toggled ul ul li a:hover {
+	border-bottom: 0 none !important;
+}
+
 /* internal page styles */
 .entry-title {
 	font-family: 'Cagliostro', sans-serif;
