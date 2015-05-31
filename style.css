@@ -174,3 +174,17 @@ ul.nav-menu > li {
     height: 0;
     width: 0;
 }
+
+/* slider */
+.metaslider .caption-wrap {
+	bottom: 20% !important;
+	height: 60%;
+	left: 30% !important;
+	opacity: 0.9;
+	width: 40% !important;
+}
+
+.flexslider .caption-wrap {
+	background: white !important;
+	color: black !important;
+}
