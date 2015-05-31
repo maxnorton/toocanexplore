@@ -202,3 +202,29 @@ ul.nav-menu > li {
 	background-color: #43a345;
 	color: #fff !important;
 }
+
+/* internal page styles */
+.entry-title {
+	font-family: 'Cagliostro', sans-serif;
+}
+
+body.page .site-content > .entry-header {
+	background: #fade61;
+	position: relative;
+	width: 100%;
+}
+
+body.page .site-content > .entry-header:after {
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 40px solid #fade61;
+   	margin: 0 auto;
+	content: " ";
+    display: block;
+    height: 0;
+    width: 0;	
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -70px;
+}
