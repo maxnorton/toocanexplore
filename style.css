@@ -245,3 +245,8 @@ body.page .site-content > .entry-header:after {
     left: 50%;
     margin-left: -70px;
 }
+
+/* shop grid */
+.grid-shop article {
+	width: 30%;
+}
