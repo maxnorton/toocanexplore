@@ -248,5 +248,7 @@ body.page .site-content > .entry-header:after {
 
 /* shop grid */
 .grid-shop article {
+	display: inline-block;
+	padding: 40px 3% 0;
 	width: 30%;
 }
