@@ -223,12 +223,14 @@ ul.nav-menu > li {
 	font-family: 'Cagliostro', sans-serif;
 }
 
+body.archive .site-content > .page-header,
 body.page .site-content > .entry-header {
 	background: #fade61;
 	position: relative;
 	width: 100%;
 }
 
+body.archive .site-content > .page-header:after,
 body.page .site-content > .entry-header:after {
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
