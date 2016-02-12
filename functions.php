@@ -15,6 +15,8 @@
 	      'taxonomies' => array('category', 'post_tag'),
 	      'supports' => array('title', 'editor', 'thumbnail'),
 	      'public' => true,
+	      'publicly_queryable' => true,
+	      'query_var' => true,
 	      'has_archive' => true,
 	      'rewrite' => array('slug' => 'shop'),
 	    )
