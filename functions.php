@@ -12,6 +12,8 @@
 	        'name' => __( 'Books' ),
 	        'singular_name' => __( 'Book' )
 	      ),
+	      'taxonomies' => array('category', 'post_tag'),
+	      'supports' => array('title', 'editor', 'thumbnail'),
 	      'public' => true,
 	      'has_archive' => false,
 	    )
