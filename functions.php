@@ -16,5 +16,6 @@
 	      'has_archive' => false,
 	    )
 	  );
+  		add_theme_support( 'post-thumbnails', array( 'tce_book' ) );
 	}
 ?>
