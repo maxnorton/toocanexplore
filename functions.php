@@ -15,7 +15,8 @@
 	      'taxonomies' => array('category', 'post_tag'),
 	      'supports' => array('title', 'editor', 'thumbnail'),
 	      'public' => true,
-	      'has_archive' => false,
+	      'has_archive' => true,
+	      'rewrite' => array('slug' => 'shop'),
 	    )
 	  );
   		add_theme_support( 'post-thumbnails', array( 'tce_book' ) );
