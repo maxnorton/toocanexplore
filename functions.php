@@ -23,4 +23,13 @@
 	  );
   		add_theme_support( 'post-thumbnails', array( 'tce_book' ) );
 	}
+	function tce_add_custom_types( $query ) {
+	  if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
+	    $query->set( 'post_type', array(
+	     'post', 'nav_menu_item', 'tce_book'
+			));
+		  return $query;
+		}
+	}
+	add_filter( 'pre_get_posts', 'tce_add_custom_types' );
 ?>
