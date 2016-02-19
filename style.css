@@ -275,3 +275,24 @@ body.page .site-content > .entry-header:after {
 	#cboxContent .entry-thumbnail img {
 		width: 50vw;
 	}
+
+/* print template styles */
+.page-template-printable .site-content > .entry-header {
+	margin-bottom: 0;
+}
+
+.page-template-printable #primary {
+	background: #ffffff;
+	border: 0 none;
+	padding-top: 1rem;
+}
+
+.page-template-printable #menu-item-63,
+.page-template-printable #menu-item-39 {
+	display: none;
+}
+
+.page-template-printable .site-footer .bottom-bar {
+	background: #fff;
+	color: #999;
+}
