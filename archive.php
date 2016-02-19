@@ -12,10 +12,14 @@ get_header(); ?>
 	<header class="page-header">
 		<div class="container">
 			<div class="title-wrapper">
+				<h1 class="page-title">
 				<?php 
-					the_archive_title( '<h1 class="page-title">', '</h1>' ); 
+					$archive_title = get_the_archive_title(); 
+					$archive_title_clean = preg_replace('/[A-Za-z]+\:\s/', '', $archive_title);
+					echo $archive_title_clean;
 					the_archive_description( '<div class="taxonomy-description">', '</div>' ); 
 				?>
+				</h1>
 			</div><!-- .title-wrapper --><?php ultra_breadcrumb(); ?>
 		</div><!-- .container -->
 	</header><!-- .page-header -->	
