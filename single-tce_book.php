@@ -11,7 +11,7 @@
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php get_template_part( 'content', 'single' ); ?>
+			<?php get_template_part( 'content', 'book' ); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
@@ -21,6 +21,10 @@
 			?>
 
 		<?php endwhile; // end of the loop. ?>
+
+			<div class="photo-list-link">
+				<p><a href="/step-by-step-photo-guide/">Click here for a step-by-step guid on collecting photos for this book.</a></p>
+			</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
