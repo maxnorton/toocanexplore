@@ -277,6 +277,29 @@ body.page .site-content > .entry-header:after {
 	}
 
 /* print template styles */
+.page-template-printable .header-grid {
+	display: block;
+}
+.page-template-printable .header-box {
+	width: 49%;
+}
+.page-template-printable .header-box:last-of-type {
+	display: block;
+	width: 100%;
+}
+.page-template-printable .header-box:last-of-type #top-bar {
+	border-left: 0 none;
+	float: none;
+	padding: 0;
+
+}
+.page-template-printable .header-box:last-of-type #top-bar .top-bar-text {
+	text-align: center;
+	width: 100%;
+}
+.page-template-printable .header-box:last-of-type #top-bar .top-bar-text span {
+	line-height: 1em;
+}
 .page-template-printable .site-content > .entry-header {
 	margin-bottom: 0;
 }
