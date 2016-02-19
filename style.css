@@ -252,3 +252,26 @@ body.page .site-content > .entry-header:after {
 	padding: 40px 3% 0;
 	width: 30%;
 }
+
+/* colorbox */
+
+	/* hide interface controls - hacky, but the built-in plugin controls don't work */
+	#cboxCurrent,
+	#cboxNext,
+	#cboxPrevious,
+	#cboxTitle {
+		display: none !important;
+	}
+
+	#cboxContent #primary {
+		border: 0 none;
+		width: 100%;
+	}
+
+	#cboxContent .entry-meta {
+		display: none;
+	}
+
+	#cboxContent .entry-thumbnail img {
+		width: 50vw;
+	}
