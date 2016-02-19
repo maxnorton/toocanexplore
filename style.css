@@ -275,3 +275,43 @@ body.page .site-content > .entry-header:after {
 	#cboxContent .entry-thumbnail img {
 		width: 50vw;
 	}
+
+/* print template styles */
+.page-template-printable .header-grid {
+	display: block;
+}
+.page-template-printable .header-box {
+	width: 49%;
+}
+.page-template-printable .header-box:last-of-type {
+	display: block;
+	width: 100%;
+}
+.page-template-printable .header-box:last-of-type {
+	display: none;
+}
+.page-template-printable h5 {
+	font-size: 1em;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+.page-template-printable .site-content > .entry-header {
+	margin-bottom: 0;
+}
+
+.page-template-printable #primary {
+	background: #ffffff;
+	border: 0 none;
+	padding-top: 1rem;
+}
+
+.page-template-printable #menu-item-63,
+.page-template-printable #menu-item-39 {
+	display: none;
+}
+
+.page-template-printable .site-footer .bottom-bar {
+	background: #fff;
+	color: #999;
+}
