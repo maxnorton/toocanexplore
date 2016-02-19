@@ -23,7 +23,7 @@
 		<?php endwhile; // end of the loop. ?>
 
 			<div class="photo-list-link">
-				<p><a href="/step-by-step-photo-guide/">Click here for a step-by-step guid on collecting photos for this book.</a></p>
+				<p><a href="/step-by-step-photo-guide/" target="_blank">Click here for a step-by-step guid on collecting photos for this book. (Opens in new window.)</a></p>
 			</div>
 
 		</main><!-- #main -->
