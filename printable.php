@@ -11,6 +11,7 @@ get_template_part( 'header', 'printable' ); ?>
 	<header class="entry-header">
 		<div class="container">
 			<h1 class="entry-title"><?php echo get_the_title(); ?></h1><?php ultra_breadcrumb(); ?>
+			<h5><a href="javascript:window.print()">(Print this)</a> | +1 800 555 5555 | info@toocanexplore.com</h5>
 		</div><!-- .container -->
 	</header><!-- .entry-header -->		
 
