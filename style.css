@@ -249,8 +249,11 @@ body.page .site-content > .entry-header:after {
 /* shop grid */
 .grid-shop article {
 	display: inline-block;
+	height: 50vh;
 	padding: 40px 3% 0;
+	vertical-align: top;
 	width: 30%;
+	overflow-y: scroll;
 }
 
 /* colorbox */
