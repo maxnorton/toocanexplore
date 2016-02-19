@@ -6,7 +6,7 @@
  * @subpackage TooCanExplore
  */
 
-get_header(); ?>
+get_template_part( 'header', 'printable' ); ?>
 
 	<header class="entry-header">
 		<div class="container">
