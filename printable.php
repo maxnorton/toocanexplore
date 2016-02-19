@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Printable Page
+ * Template Name: Full Width - Printable Page
  *
  * @package ultra
  * @subpackage TooCanExplore
@@ -34,8 +34,6 @@ get_template_part( 'header', 'printable' ); ?>
 
 			</main><!-- #main -->
 		</div><!-- #primary -->
-
-		<?php get_sidebar(); ?>
 
 	</div><!-- .container -->
 
