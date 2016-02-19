@@ -262,3 +262,8 @@ body.page .site-content > .entry-header:after {
 	#cboxTitle {
 		display: none !important;
 	}
+
+	#cboxContent #primary {
+		border: 0 none;
+		width: 100%;
+	}
